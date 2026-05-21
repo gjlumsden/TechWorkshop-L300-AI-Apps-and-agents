@@ -62,10 +62,7 @@ async def main():
             AttackStrategy.ROT13,
             AttackStrategy.Base64,
             AttackStrategy.AnsiAttack,
-            AttackStrategy.Tense,
-            AttackStrategy.PromptInjection,  
-            AttackStrategy.RolePlay,
-            AttackStrategy.AdversarialExamples,
+            AttackStrategy.Tense
         ],)
 
 asyncio.run(main())
